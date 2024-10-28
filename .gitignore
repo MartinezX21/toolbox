@@ -1,0 +1,72 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+toolbox-api/.gradle
+toolbox-api/build/
+!toolbox-api/gradle/wrapper/gradle-wrapper.jar
+!toolbox-api/**/src/main/**/build/
+!toolbox-api/**/src/test/**/build/
+
+### STS ###
+toolbox-api/.apt_generated
+toolbox-api/.classpath
+toolbox-api/.factorypath
+toolbox-api/.project
+toolbox-api/.settings
+toolbox-api/.springBeans
+toolbox-api/.sts4-cache
+toolbox-api/bin/
+!toolbox-api/**/src/main/**/bin/
+!toolbox-api/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+toolbox-api/.idea
+toolbox-api/*.iws
+toolbox-api/*.iml
+toolbox-api/*.ipr
+toolbox-api/out/
+!toolbox-api/**/src/main/**/out/
+!toolbox-api/**/src/test/**/out/
+
+### NetBeans ###
+toolbox-api/nbproject/private/
+toolbox-api/nbbuild/
+toolbox-api/dist/
+toolbox-api/nbdist/
+toolbox-api/.nb-gradle/
+
+### VS Code ###
+toolbox-api/.vscode/
+
+# dependencies
+toolbox-client/node_modules
+toolbox-client/.pnp
+toolbox-client/.pnp.js
+toolbox-client/.yarn/install-state.gz
+
+# testing
+toolbox-client/coverage
+
+# next.js
+toolbox-client/.next/
+toolbox-client/out/
+
+# production
+toolbox-client/build
+
+# misc
+toolbox-client/.DS_Store
+toolbox-client/*.pem
+
+# debug
+toolbox-client/npm-debug.log*
+toolbox-client/yarn-debug.log*
+toolbox-client/yarn-error.log*
+
+# local env files
+toolbox-client/.env*.local
+
+# vercel
+toolbox-client/.vercel
+
+# typescript
+toolbox-client/*.tsbuildinfo
+toolbox-client/next-env.d.ts
