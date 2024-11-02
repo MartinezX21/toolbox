@@ -40,7 +40,7 @@ function Header() {
             themeCtx?.setTheme('light')
             document.body.classList.remove("dark")
         }
-    }, [])
+    }, [themeCtx])
 
     return (
         <div className='p-2 w-full border-b dark:border-b-gray-600 shadow-sm dark:shadow-gray-600'>

@@ -174,7 +174,7 @@ function PdfManipulationStudio(props: PdfManipulationStudioProps) {
         setWorkingDocuments(!!activeDocument? [activeDocument] : [])
         setRemovedPageNumbers([])
         setExtractedPageNumbers([])
-    }, [activeDocumentId])
+    }, [activeDocumentId, documents])
 
     return (
         <>

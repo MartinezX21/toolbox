@@ -23,7 +23,7 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
                 mode: value.theme,
             }
         })
-    }, [theme])
+    }, [value.theme])
     return (
         <MuiThemeProvider theme={muiTheme}>
             <CssBaseline />
