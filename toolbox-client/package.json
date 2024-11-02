@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pm2": "pm2 start pm2-start.json"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -21,6 +22,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-redux": "^9.1.2",
+    "sharp": "^0.33.5",
     "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
