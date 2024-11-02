@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 
 const config = {
-    baseUrl: "http://localhost:8080/toolbox-api",
+    baseUrl: "https://api-toolbox.kamvusoft.com/toolbox-api",
     defaultHeader: {'Content-Type': 'application/json'},
 }
 

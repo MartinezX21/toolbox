@@ -4,9 +4,9 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'toolbox.kamvusoft.com',
+                hostname: 'api-toolbox.kamvusoft.com',
                 port: '',
-                pathname: '/files/**',
+                pathname: '/toolbox-api/files/**',
             },
             {
                 protocol: 'http',
